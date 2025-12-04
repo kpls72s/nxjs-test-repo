@@ -18,6 +18,8 @@ export async function handleSubmission(formData: FormData) {
 
   await prisma.blogPost.create({
     data: {
+      id: user.id,
+      updatedAt: "",
       title: title as string,
       content: content as string,
       imageUrl: url as string,

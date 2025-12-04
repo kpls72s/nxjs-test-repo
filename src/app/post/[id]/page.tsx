@@ -1,6 +1,5 @@
 import { buttonVariants } from "@/src/components/ui/Button";
 import { Card, CardContent } from "@/src/components/ui/card";
-import { Skeleton } from "@/src/components/ui/skeleton";
 import { prisma } from "@/src/utils/db";
 import Image from "next/image";
 import Link from "next/link";
