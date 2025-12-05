@@ -3,6 +3,7 @@ import { BlogpostCard } from "../components/generals/BlogpostCard";
 import { prisma } from "../utils/db";
 import { Skeleton } from "../components/ui/skeleton";
 
+export const revalidate = 60;
 async function getData() {
   await new Promise((resolve) => setTimeout(resolve, 5000));
 
